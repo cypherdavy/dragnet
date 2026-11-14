@@ -1,0 +1,93 @@
+/* dragnet/client/client.css (Corrected Version) */
+
+/* --- Global Theme --- */
+App {
+    background: #0D1C22; /* Dark blue-green */
+    color: #4CAF50;      /* Green for primary text */
+}
+
+Header {
+    background: #1A343A; /* Slightly lighter header */
+    color: #00E676;      /* Bright green for header text */
+    text-align: center;
+    border-bottom: heavy #00B36B; /* A subtle border */
+}
+
+Footer {
+    background: #1A343A;
+    color: #00E676;
+    border-top: heavy #00B36B;
+}
+
+/* --- Main Layout --- */
+#client-container {
+    layout: vertical;
+    align: center middle;
+    padding: 1 2;
+}
+
+/* --- Logo Display --- */
+#logo-display {
+    width: 100%;
+    height: auto;
+    max-height: 15; /* Limit logo height */
+    text-align: center;
+    margin-bottom: 1;
+    color: #00E676; /* Bright green for logo */
+    border: none;
+}
+
+/* --- Agent Status Box --- */
+#agent-status-box {
+    width: 100%;
+    height: 3;
+    background: #0E2024; /* Darker background */
+    color: #00E676;
+    text-align: center;
+    border: round #00B36B;
+    margin-bottom: 1;
+    padding: 0 1;
+}
+
+/* --- Graph Placeholder --- */
+#graph-placeholder {
+    width: 100%;
+    height: 5; /* Adjusted height for the graph */
+    background: #0E2024;
+    color: #00E676;
+    border: round #00B36B;
+    margin-top: 1;
+    padding: 0 1;
+    text-align: center;
+}
+
+/* --- Live Action Log --- */
+#log-view {
+    width: 100%;
+    height: auto; /* Allow log to take remaining space */
+    background: #0E2024;
+    color: #E0E0E0; /* Lighter text for log entries */
+    border: round #00B36B;
+    margin-top: 1;
+    padding: 0 1;
+}
+
+/* Specific colors for log messages */
+.log--status { color: #80CBC4; } /* Cyan-ish */
+.log--task { color: #FFEB3B; }   /* Yellow */
+.log--result { color: #A5D6A7; } /* Light Green */
+.log--init { color: #64B5F6; }   /* Blue */
+.log--error { color: #FF5252; }  /* Red */
+.log--info { color: #E0E0E0; }   /* General Info */
+
+/* --- Comm Channel Display --- */
+#comm-channel-display {
+    width: 100%;
+    height: 3;
+    background: #0E2024;
+    color: #00E676;
+    text-align: center;
+    border: round #00B36B;
+    margin-top: 1;
+    padding: 0 1;
+}
